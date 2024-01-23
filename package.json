@@ -2,7 +2,7 @@
   "name": "nihil-node-template",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nihil-template/nihil-node-template.git"
@@ -12,9 +12,7 @@
   },
   "homepage": "https://github.com/nihil-template/nihil-node-template#readme",
   "scripts": {
-    "serve": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "NIHILncunia",
