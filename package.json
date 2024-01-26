@@ -18,6 +18,7 @@
   "author": "NIHILncunia",
   "license": "MIT",
   "dependencies": {
+    "commandkit": "^0.1.10",
     "discord.js": "^14.14.1",
     "uuid": "^9.0.1"
   },
